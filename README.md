@@ -1,14 +1,14 @@
-🚀 LLM Powered Resume Screening Tool
+🚀 **LLM Powered Resume Screener**
 
 A high-performance, LLM-driven ATS (Applicant Tracking System) emulator designed to bridge the semantic gap between candidate experience and job requirements. Built for precision, this engine moves beyond keyword matching by utilizing a hybrid orchestration pipeline that combines deterministic extraction with deep semantic understanding.
 
 
-🔬 Engineering Philosophy
+🔬 **Engineering Philosophy**
 
 Traditional ATS systems rely on fragile, rule-based keyword matching. This engine leverages Retrieval-Augmented Generation (RAG) principles and Dense Vector Embeddings to ensure that "Machine Learning Engineer" matches "Data Scientist" based on conceptual proximity, not just string equality.
 
 
-✨ Technical Architecture
+✨ **Technical Architecture**
 
 1. Intelligent Parsing & Extraction
 
@@ -25,7 +25,7 @@ The core scoring logic aggregates intelligence from three distinct layers to pro
 ![System Architecture](matching-pipeline-architecture)
 
 
-🏗️ Technical Stack
+🏗️ **Technical Stack**
 
 LLM Orchestration: google-genai SDK (Gemini 2.5 Flash)
 
@@ -38,7 +38,7 @@ Parser: PyMuPDF
 Data Integrity: json-repair for robust LLM output handling
 
 
-🚀 Quick Start
+🚀 **Quick Start**
 
 Prerequisites
 
@@ -47,7 +47,7 @@ Python 3.10+
 A valid Google AI Studio API Key
 
 
-Installation
+**Installation**
 
 # Clone the repository
 
@@ -60,7 +60,7 @@ cd "LLM Powered Resume Screener"
 pip install -r requirements.txt
 
 
-Configuration
+**Configuration**
 
 Create a .env file in the root directory: GEMINI_API_KEY=your_key_here.
 
@@ -69,12 +69,12 @@ Place your resume in the root directory and rename it to sample_resume.pdf.
 Place your target Job Description text into data/samples/sample_jd.txt.
 
 
-Execution
+**Execution**
 
 Run the matching pipeline: python -m run_match
 
 
-📊 Performance Insights
+📊 **Performance Insights**
 
 The engine produces a Transparent Scoring Report, enabling candidates and recruiters to see exactly why a match score was generated:
 
@@ -105,7 +105,7 @@ The engine produces a Transparent Scoring Report, enabling candidates and recrui
 }
 
 
-🛠️ Advanced Roadmap
+🛠️ **Advanced Roadmap**
 
 Ontology Scaling: Transitioning to graph-based skill clustering.
 
