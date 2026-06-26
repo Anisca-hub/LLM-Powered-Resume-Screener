@@ -22,7 +22,7 @@ Skill Normalization: Features a robust mapping layer that resolves synonyms and 
 
 The core scoring logic aggregates intelligence from three distinct layers to provide a 360-degree candidate evaluation:
 
-![System Architecture](matching-pipeline-architecture)
+<img width="1024" height="559" alt="image" src="https://github.com/user-attachments/assets/5485d947-5dd3-4775-b445-02fa9b43c34c" />
 
 
 🏗️ **Technical Stack**
