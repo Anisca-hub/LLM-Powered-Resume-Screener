@@ -1,0 +1,21 @@
+Job Title: Junior AI/ML Engineer (Intern)
+
+Role Overview:
+We are looking for a skilled AI/ML Intern to contribute to our core data science initiatives. You will be responsible for developing end-to-end ML pipelines, training Deep Learning models, and refining predictive systems to enhance our data-driven decision-making.
+
+Key Responsibilities:
+- Develop, validate, and tune machine learning models for classification and regression tasks.  
+- Design and implement end-to-end ML pipelines, including data preprocessing, feature engineering, and model optimization.  
+- Architect and train Deep Learning architectures (CNNs) for complex image or dataset analysis.  
+- Collaborate with the development team to integrate backend solutions with data-driven models. 
+
+Required Technical Skills:
+- Programming: Strong proficiency in Python.  
+- AI/ML Frameworks: Practical expertise with TensorFlow, Keras, and scikit-learn.  
+- Data Science: Strong knowledge of NumPy, pandas, and Matplotlib for EDA, feature engineering, and hyperparameter tuning.  
+- Tools: Proficient in using Git/GitHub for version control and Jupyter Notebook/VS Code for development. 
+
+Preferred Qualifications:
+- Experience with computer vision architectures (CNNs) and hyperspectral or multispectral data.  
+- Familiarity with SQL for database operations.  Basic understanding of PyTorch and cloud-based deployments.  
+- Experience with backend integration and API management (e.g., Fast API, Supabase).  
