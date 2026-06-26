@@ -27,40 +27,36 @@ The core scoring logic aggregates intelligence from three distinct layers to pro
 
 🏗️ **Technical Stack**
 
-LLM Orchestration: google-genai SDK (Gemini 2.5 Flash)
+- LLM Orchestration: google-genai SDK (Gemini 2.5 Flash)
 
-Embedding Engine: sentence-transformers (all-MiniLM-L6-v2)
+- Embedding Engine: sentence-transformers (all-MiniLM-L6-v2)
 
-Backend: Modular Python (Core/Matching/Utils)
+- Backend: Modular Python (Core/Matching/Utils)
 
-Parser: PyMuPDF
+- Parser: PyMuPDF
 
-Data Integrity: json-repair for robust LLM output handling
+- Data Integrity: json-repair for robust LLM output handling
 
 
 🚀 **Quick Start**
 
-Prerequisites
+1. Prerequisites
 
 Python 3.10+
 
 A valid Google AI Studio API Key
 
 
-**Installation**
-
-# Clone the repository
+2.Installation
 
 git clone https://github.com/Anisca-hub/LLM-Powered-Resume-Screener.git
 
 cd "LLM Powered Resume Screener"
 
-# Install dependencies
-
 pip install -r requirements.txt
 
 
-**Configuration**
+3. Configuration
 
 Create a .env file in the root directory: GEMINI_API_KEY=your_key_here.
 
@@ -69,7 +65,7 @@ Place your resume in the root directory and rename it to sample_resume.pdf.
 Place your target Job Description text into data/samples/sample_jd.txt.
 
 
-**Execution**
+4. Execution
 
 Run the matching pipeline: python -m run_match
 
