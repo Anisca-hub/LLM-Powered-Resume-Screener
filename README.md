@@ -12,11 +12,11 @@ Traditional ATS systems rely on fragile, rule-based keyword matching. This engin
 
 1. Intelligent Parsing & Extraction
 
-Resume Parser: Utilizes PyMuPDF for high-fidelity text extraction, feeding raw unstructured data into Gemini 2.5 Flash for hierarchical entity recognition.
+- Resume Parser: Utilizes PyMuPDF for high-fidelity text extraction, feeding raw unstructured data into Gemini 2.5 Flash for hierarchical entity recognition.
 
-JD Preprocessor: Implements deterministic noise removal and schema-strict extraction to ensure the LLM outputs valid, production-ready JSON.
+- JD Preprocessor: Implements deterministic noise removal and schema-strict extraction to ensure the LLM outputs valid, production-ready JSON.
 
-Skill Normalization: Features a robust mapping layer that resolves synonyms and alias clusters (e.g., ML ↔ Machine Learning, NN ↔ Neural Networks) to a canonical ontology.
+- Skill Normalization: Features a robust mapping layer that resolves synonyms and alias clusters (e.g., ML ↔ Machine Learning, NN ↔ Neural Networks) to a canonical ontology.
 
 2. Hybrid Matching Engine
 
@@ -42,9 +42,9 @@ The core scoring logic aggregates intelligence from three distinct layers to pro
 
 1. Prerequisites
 
-Python 3.10+
+- Python 3.10+
 
-A valid Google AI Studio API Key
+- A valid Google AI Studio API Key
 
 
 2.Installation
@@ -58,11 +58,11 @@ pip install -r requirements.txt
 
 3. Configuration
 
-Create a .env file in the root directory: GEMINI_API_KEY=your_key_here.
+- Create a .env file in the root directory: GEMINI_API_KEY=your_key_here.
 
-Place your resume in the root directory and rename it to sample_resume.pdf.
+- Place your resume in the root directory and rename it to sample_resume.pdf.
 
-Place your target Job Description text into data/samples/sample_jd.txt.
+- Place your target Job Description text into data/samples/sample_jd.txt.
 
 
 4. Execution
@@ -103,10 +103,10 @@ The engine produces a Transparent Scoring Report, enabling candidates and recrui
 
 🛠️ **Advanced Roadmap**
 
-Ontology Scaling: Transitioning to graph-based skill clustering.
+- Ontology Scaling: Transitioning to graph-based skill clustering.
 
-Inference Optimization: Migrating from standard calls to batched embedding pipelines for faster processing.
+- Inference Optimization: Migrating from standard calls to batched embedding pipelines for faster processing.
 
-UI Integration: Deployment via Streamlit for real-time candidate ranking.
+- UI Integration: Deployment via Streamlit for real-time candidate ranking.
 
 Built by [Anisca Jha] | [https://www.linkedin.com/in/anisca-jha-93ba83308]
