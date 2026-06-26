@@ -3,9 +3,11 @@
 A high-performance, LLM-driven ATS (Applicant Tracking System) emulator designed to bridge the semantic gap between candidate experience and job requirements. Built for precision, this engine moves beyond keyword matching by utilizing a hybrid orchestration pipeline that combines deterministic extraction with deep semantic understanding.
 
 
+
 🔬 **Engineering Philosophy**
 
 Traditional ATS systems rely on fragile, rule-based keyword matching. This engine leverages Retrieval-Augmented Generation (RAG) principles and Dense Vector Embeddings to ensure that "Machine Learning Engineer" matches "Data Scientist" based on conceptual proximity, not just string equality.
+
 
 
 ✨ **Technical Architecture**
@@ -70,6 +72,7 @@ pip install -r requirements.txt
 Run the matching pipeline: python -m run_match
 
 
+
 📊 **Performance Insights**
 
 The engine produces a Transparent Scoring Report, enabling candidates and recruiters to see exactly why a match score was generated:
@@ -99,6 +102,7 @@ The engine produces a Transparent Scoring Report, enabling candidates and recrui
   "suggestions": []
 
 }
+
 
 
 🛠️ **Advanced Roadmap**
